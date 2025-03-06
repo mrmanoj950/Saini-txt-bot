@@ -126,11 +126,11 @@ Busy = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_232047-1.jpg",
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_235607_759.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
-    "https://tinypic.host/images/2025/02/07/IMG_20250208_002020.jpg",
+    "https://envs.sh/QnP.jpg",
+    "https://envs.sh/QnP.jpg",
+    "https://envs.sh/QnP.jpg",
+    "https://envs.sh/QnP.jpg",
+    "https://envs.sh/QnP.jpg",
     # Add more image URLs as needed
 ]
 
@@ -200,7 +200,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["saini"]) )
+@bot.on_message(filters.command(["meenaji"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
