@@ -108,8 +108,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Nikhil_saini_khe"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Coursextractuploader"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/shikshamahal"),
         ],
     ]
 )
@@ -118,8 +118,8 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Nikhil_saini_khe"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Coursextractuploader"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/shikshamahal"),
         ],
     ]
 )
@@ -149,7 +149,7 @@ async def start_command(bot: Client, message: Message):
     # Caption for the image
     caption = (
         "🌟 Welcome Boss😸! 🌟\n\n"
-        "➽ I am powerful uploader bot 📥\n\n➽ I Can Extract Videos & Pdf From Your Text File and Upload to Telegram\n\n➽ 𝐔𝐬𝐞 /Stop for **Stop** ⛔ working process \n\n➽ 𝐔𝐬𝐞 /saini Command To Download  Data From TXT File 🗃️ \n\n➽ 𝐌𝐚𝐝𝐞 𝐁𝐲: 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🦁"
+        "➽ I am powerful uploader bot 📥\n\n➽ I Can Extract Videos & Pdf From Your Text File and Upload to Telegram\n\n➽ 𝐔𝐬𝐞 /Stop for **Stop** ⛔ working process \n\n➽ 𝐔𝐬𝐞 /meenaji Command To Download  Data From TXT File 🗃️ \n\n➽ 𝐌𝐚𝐝𝐞 𝐁𝐲: ♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™ 🦁"
     )
 
     await asyncio.sleep(1)
@@ -178,7 +178,7 @@ async def start_command(bot: Client, message: Message):
 
     await asyncio.sleep(1)
     await loading_message.edit_text(
-        "Checking status Ok... \n**ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+1e-r94cF6yE3NzA1'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n"
+        "Checking status Ok... \n**ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/shikshamahal'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n"
         "Progress:🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%\n\n"
     )
         
@@ -239,7 +239,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣━━⪼ send 144  for 144p\n┣━━⪼ send 240  for 240p\n┣━━⪼ send 360  for 360p\n┣━━⪼ send 480  for 480p\n┣━━⪼ send 720  for 720p\n┣━━⪼ send 1080 for 1080p\n╰━━⌈⚡[🦋🇸‌🇦‌🇮‌🇳‌🇮‌🦋]⚡⌋━━➣ **")
+    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣━━⪼ send 144  for 144p\n┣━━⪼ send 240  for 240p\n┣━━⪼ send 360  for 360p\n┣━━⪼ send 480  for 480p\n┣━━⪼ send 720  for 720p\n┣━━⪼ send 1080 for 1080p\n╰━━⌈⚡[🦋♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™🦋]⚡⌋━━➣ **")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -455,7 +455,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue
                           
                 else:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n🔗𝐈𝐧𝐝𝐞𝐱 » {str(count).zfill(3)}/{len(links)}\n\n**📚𝐓𝐢𝐭𝐥𝐞** » `{name}\n\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}p`\n\n**✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦"
+                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n🔗𝐈𝐧𝐝𝐞𝐱 » {str(count).zfill(3)}/{len(links)}\n\n**📚𝐓𝐢𝐭𝐥𝐞** » `{name}\n\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}p`\n\n**✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ ♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™ 🐦"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
