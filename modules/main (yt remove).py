@@ -161,7 +161,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... \nFor command **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+taZCy5OkoMUwNzI9'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n**Bot Made BY 🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌**🔍\n\n"
+        "Checking status Ok... \nFor command **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+taZCy5OkoMUwNzI9'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n**Bot Made BY ♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™**🔍\n\n"
         "Progress:🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%\n\n"
     )
 
@@ -171,7 +171,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["sainilover"]) )
+@bot.on_message(filters.command(["pwmj"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -255,7 +255,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         MR = raw_text4
         
-    await editable.edit("Now send the **Thumb url**\n**☞: https://tinypic.host/images/2025/02/04/IMG_20250204_194908.jpg** ``\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\n**☞: https://envs.sh/QnP.jpg** ``\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
