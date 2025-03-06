@@ -27,7 +27,7 @@ from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Download the photo
-photo = 'https://tinypic.host/images/2025/02/04/IMG_20250204_194908.jpg'
+photo = 'https://envs.sh/QnP.jpg'
 
 credit ="𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" 
 OWNER = int(os.environ.get("OWNER", 5680454765))
@@ -161,7 +161,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... \nFor command **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/+taZCy5OkoMUwNzI9'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n**Bot Made BY ♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™**🔍\n\n"
+        "Checking status Ok... \nFor command **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/shikshamahal'>ᴛᴇʟᴇɢʀᴀᴍ Group</a>**\n\n**Bot Made BY ♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™**🔍\n\n"
         "Progress:🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%\n\n"
     )
 
@@ -211,7 +211,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144   for 144p\n┣⪼ 240   for 240p\n┣⪼ 360   for 360p\n┣⪼ 480   for 480p\n┣⪼ 720   for 720p\n┣⪼ 1080  for 1080p\n╰━━⌈⚡[🦋🇸‌🇦‌🇮‌🇳‌🇮‌🦋]⚡⌋━━➣ **")
+    await editable.edit("**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━➣\n┣⪼ 144   for 144p\n┣⪼ 240   for 240p\n┣⪼ 360   for 360p\n┣⪼ 480   for 480p\n┣⪼ 720   for 720p\n┣⪼ 1080  for 1080p\n╰━━⌈⚡[🦋♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™🦋]⚡⌋━━➣ **")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -404,7 +404,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n**📚𝐓𝐢𝐭𝐥𝐞** » `{name}\n\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n🔗𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐥𝐢𝐧𝐤 » {count}\n\n🖇️𝐓𝐨𝐭𝐚𝐥 𝐥𝐢𝐧𝐤𝐬 » {len(links)}\n\n🌿**𝐔𝐑𝐋** -  `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦"
+                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n**📚𝐓𝐢𝐭𝐥𝐞** » `{name}\n\n🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n🔗𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐥𝐢𝐧𝐤 » {count}\n\n🖇️𝐓𝐨𝐭𝐚𝐥 𝐥𝐢𝐧𝐤𝐬 » {len(links)}\n\n🌿**𝐔𝐑𝐋** -  `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ ♛𝕸𝖊𝖊𝖓𝖆 𝖏𝖎♛™🐦"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
